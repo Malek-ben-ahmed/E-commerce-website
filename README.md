@@ -26,10 +26,10 @@ cd E-commerce-website
 
 
 ### 🏠 Homepage
-![Homepage](screenshots/Homepage.png)
-![Loginpage](screenshots/loginpage.png)
-![signuppage](screenshots/signuppage.png)
-![infopage](screenshots/info.png)
-![chatbotpage](screenshots/chatbot.png)
-![shoppingbasketpage](screenshots/shopping basket.png)
-![reinitializedpage](screenshotsreinitializepassword.png/)
+![Homepage Screenshot](screenshots/Homepage.png)
+![Loginpage Screenshot](screenshots/loginpage.png)
+![signuppage Screenshot](screenshots/signuppage.png)
+![infopage Screenshot](screenshots/info.png)
+![chatbotpage Screenshot](screenshots/chatbot.png)
+![shoppingbasketpage Screenshot](screenshots/shopping basket.png)
+![reinitializedpage Screenshot](screenshotsreinitializepassword.png/)
