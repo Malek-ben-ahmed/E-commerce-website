@@ -1,0 +1,121 @@
+.product-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 20px;
+  margin-top: 40px;
+  
+}
+.elements{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.product-card:hover {
+  transform: scale(1.03);
+}
+#product-name {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+  color: #333;
+  
+}
+
+#product-price {
+  font-size: 1rem;
+  color: rgb(238, 116, 154);
+  font-weight: bold;
+  
+}
+#product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+#iconforchat{
+ box-shadow: none;
+ border: none;
+ position: fixed;
+ cursor: pointer;
+  transition: transform 0.2s;
+  bottom: 20px;
+  right: 20px;
+}
+#iconforchat:hover {
+  transform: scale(1.1);
+}
+.boxforchat{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: rgb(243, 217, 226);
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 20px;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#sendbutton{
+  background-color:#dddddd0d;
+  border: none;
+  margin-left: -30px;
+ 
+}
+textarea{
+  outline: none;
+  width:270px;
+  padding-left: 10px;
+}
+textarea:focus{
+    border:2px solid rgb(242, 202, 215);
+     outline: none;
+    
+}
+textarea:hover{
+ border:2px solid rgb(242, 202, 215);
+  outline: none;
+}
+textarea:active{
+   border:2px solid rgb(242, 202, 215);
+    outline: none;
+}
+#usermessage{
+  
+  display: inline-block;
+  background-color: rgb(243, 247, 248); 
+  padding: 4px 8px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  align-self: flex-end;
+  max-width: 270px;
+  margin-right: 8px;
+}
+#chatmessage{
+  background-color: rgb(243, 247, 248); 
+  padding: 4px 8px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  display: inline-block;
+   align-self: flex-start;
+   max-width: 270px;
+   margin-left: 8px;
+}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

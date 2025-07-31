@@ -1,0 +1,133 @@
+.achats{
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  max-width: 550px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.imgdelbutton{
+     display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+img{
+    margin-bottom: 20px;
+}
+#price{
+    font-weight: bold;
+  color: rgb(238, 116, 154);
+  margin-bottom: 8px;
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row; 
+}
+#categories{
+    height: 40px;
+    margin-right: 100px;
+    margin-left: 50px;
+    outline: none;
+    border:2px solid rgb(233, 218, 223);
+    background-color:rgb(233, 218, 223); 
+}
+#barrerecherche{
+    margin-left: 150px;
+    height: 40px;
+    width: 350px;
+    border:2px solid rgb(242, 202, 215);
+    border-radius: 5px;
+    outline: none;
+   
+}
+#iconforsearch{
+    margin-left: -30px;
+    margin-top: 10px;
+  
+}
+input:focus{
+    border:2px solid rgb(242, 202, 215);
+}
+input:hover{
+ border:2px solid rgb(242, 202, 215);
+}
+input:active{
+   border:2px solid rgb(242, 202, 215);
+}
+select{
+    font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+#Seconnecter{
+ margin-right: 10px;
+}
+#iconforshop{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#iconforuser{
+   margin-right: 10px;
+   margin-top: 10px;
+   position: relative;
+}
+#Rechercher{
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 5px;
+}
+#Seconnecter {
+    height: 40px;
+}
+#options{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    width: 200px;
+    
+}
+.boxvide{
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 550px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 320px; 
+  margin-top: 100px;
+  align-items: center;
+}
+.basketshop{
+    box-shadow: none;
+    border: none;
+}
+#tohomepage{
+    background-color: rgb(242, 202, 215) ;
+    border: 2px solid rgb(242, 202, 215);
+    outline: none;
+    border-radius: 2px;
+}
+#tohomepage:hover{
+    background-color: rgb(245, 191, 208) ;
+}

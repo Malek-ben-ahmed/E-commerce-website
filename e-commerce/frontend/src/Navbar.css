@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 50%;
+  
+  }
+
+  to {
+    margin-left: 70%;
+    width: 300%;
+  }
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    display: flex;
+    flex-direction: row; 
+}
+#categories{
+    height: 40px;
+    margin-right: 100px;
+    margin-left: 50px;
+    outline: none;
+    border:2px solid rgb(233, 218, 223);
+    background-color:rgb(233, 218, 223); 
+}
+#barrerecherche{
+    margin-left: 150px;
+    height: 40px;
+    width: 350px;
+    border:2px solid rgb(242, 202, 215);
+    border-radius: 5px;
+    outline: none;
+   
+}
+
+input:focus{
+    border:2px solid rgb(242, 202, 215);
+}
+input:hover{
+ border:2px solid rgb(242, 202, 215);
+}
+input:active{
+   border:2px solid rgb(242, 202, 215);
+}
+select{
+    font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+#Seconnecter{
+ margin-right: 10px;
+}
+#iconforshop{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+#iconforuser{
+   margin-right: 10px;
+   margin-top: 10px;
+   position: relative;
+}
+#Rechercher{
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 5px;
+}
+#Seconnecter {
+    height: 40px;
+}
+#options{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    width: 200px;
+    
+}
